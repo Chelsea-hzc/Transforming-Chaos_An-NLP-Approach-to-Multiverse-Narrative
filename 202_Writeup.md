@@ -1,4 +1,4 @@
-### **Transforming Chaos: An NLP Approach to Multiverse Narrative**
+## **Transforming Chaos: An NLP Approach to Multiverse Narrative**
 
 12/10/2024  
 Chelsea Chen  
@@ -6,7 +6,7 @@ Project Type: Implementation
 
 #### 
 
-#### **Problem Definition**
+### **Problem Definition**
 
 The movie *Everything Everywhere All at Once* presents a unique challenge for script analysis due to its non-linear, multiverse narrative. Its script reflects themes of chaos, interconnectedness, and fragmentation, making it an ideal test case for exploring how computational methods can extract meaning from unconventional texts.
 
@@ -16,7 +16,7 @@ By applying Natural Language Processing (NLP) techniques, I aimed to transform t
 
 #### 
 
-#### **Approach**
+### **Approach**
 
 **1\. Text Preprocessing** Preprocessing the script was an essential step to prepare the data for analysis. I followed techniques covered in class, including:
 
@@ -46,7 +46,7 @@ These metadata annotations helped organize the chaotic script into structured un
   As mentioned in class, multiword expressions often provide more valuable information. Thus, to refine the analysis, I performed a bigram TF-IDF and excluded character names to focus on thematic patterns and contextual language. These analyses provided insights into the movie’s narrative structure and how language shifts across its parts and universes.  
 * **Visualization** I presented findings through word clouds, bar charts, and heatmaps, allowing for easy comparison of term distributions across parts and universes.
 
-#### **Findings**
+### **Findings**
 
 **1\. Part Analysis**
 
@@ -56,7 +56,7 @@ The TF-IDF analysis by part reveals how language reflects the movie’s shifting
 
 The TF-IDF analysis across universes reveals the shifting prominence of key characters and the unique focus of each setting. The Original Universe highlights mundane setting and familial conflicts, with terms like "elevator door" and "divorce paper", while Evelyn, Waymond, and Joy dominate as central figures. The Alphaverse and Action Universe focus on high-stakes multiverse exploration, with terms like "verse jump" and “grab” showing the actions and chaos. Gong Gong and Jobu emerge more prominently. The Taxes Universe blends mundane and emotional struggles, featuring Waymond’s "googly eye" philosophy and the recurring tension with Deirdre. In the Movie Star Universe, terms like "movie star," "kung fu," and “ceo” reflect Evelyn and Waymond’s alternate life of glamor and success, in contrast to the Original and Taxes Universes. The Temple Universe mainly focuses on the interaction between Evelyne and Jobu, where terms like "bagel" and "daughter" reflect Evelyn’s reconciliation with Joy/Jobu. Across all universes, Evelyn’s dominance underscores her central role, while the shifting importance of Waymond, Gong Gong, Joy/Jobu highlights the evolving dynamics in between Evelyn and her family throughout the multiverse narrative.
 
-#### **Reflection**
+### **Reflection**
 
 This project demonstrated the value of computational techniques for structuring and analyzing unconventional scripts. Class concepts like tokenization, lemmatization, regular expressions, and TF-IDF were instrumental in extracting meaningful patterns from chaotic data. 
 
